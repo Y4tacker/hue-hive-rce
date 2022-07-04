@@ -1,6 +1,8 @@
 # hue-hive-rce
  
 ## Preparation
+PS:Hive 支持ReflectUDF , 利用Java反射可以直接调用对应类的方法 
+
 ```sql
 create table workspace_hs.out as select "Hendrik Schultze @ InnoGames";
 truncate table workspace_hs.out;
